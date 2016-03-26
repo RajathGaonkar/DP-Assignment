@@ -7,7 +7,7 @@ public class MazeGame
 	public static void main(String[] args) throws Exception
 	{
 		//Creation 
-		int count=-1;
+		int count=0;
 		String line="";
 		String line1="";
 		FileReader file=new FileReader("CreateMaze.txt");
