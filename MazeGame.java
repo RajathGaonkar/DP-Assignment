@@ -4,7 +4,7 @@ public class MazeGame
 {
 	public static void main(String[] args) throws Exception
 	{
-		//Creation 
+		
 		int count=0;
 		String line="";
 		String line1="";
@@ -39,7 +39,6 @@ public class MazeGame
 		FileReader file3=new FileReader("TraverseMaze.txt");
 		BufferedReader reader3=new BufferedReader(file3);
 		
-		//Traversal 
 		int c=-1;
 		String line2="";
 		String line3="";
@@ -78,7 +77,6 @@ public class MazeGame
 			j++;
 		}			
 		
-		//Writing the destinations into a file
 		File f=new File("Destinations.txt");
 		FileWriter fw=new FileWriter(f);
 		BufferedWriter bw=new BufferedWriter(fw);
